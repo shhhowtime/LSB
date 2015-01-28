@@ -7,7 +7,7 @@ from PIL import Image
 
 def args(msg=None):
     print('[input picture] -c -k [message file] -o [output picture] for encription\n'
-          '[input picture] -o [output message] for decryption\n')
+          '[input picture] -d -o [output message] for decryption\n')
     exit(msg)
 
 
